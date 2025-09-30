@@ -9,6 +9,8 @@ theme:
     - navigation.indexes
     - search.highlight
     - search.share
+extra_css:
+  - stylesheets/modern.css
 markdown_extensions:
   - admonition
   - codehilite
