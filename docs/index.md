@@ -1,30 +1,45 @@
-# Mateus Alves
+# Acervo de Estudos & Projetos
 
-Bem-vindo ao meu acervo de estudos. Aqui você encontra anotações organizadas por área, referências úteis e projetos que estou desenvolvendo.
+Bem-vindo ao meu portfólio de conhecimentos e projetos! 👨‍💻
 
-## Stack atual
+## 🚀 Projetos
 
-- **Backend:** Python, FastAPI, SQLAlchemy. Testes automatizados com Pytest e foco em APIs bem documentadas.
-- **Frontend:** React, TypeScript, Tailwind. Interfaces acessíveis, componentização e atualização em tempo real.
-- **DevOps:** Docker, GitHub Actions, AWS. Pipelines contínuos, observabilidade e entregas frequentes.
+* __Loteria__ - Análise e Predição
+    
+    Sistema de análise estatística e predição para jogos de loteria usando Python.
 
-## Projetos em destaque
+    [Repositório](https://github.com/mateusaledev/loteria){ .md-button }
 
-### API de Catálogo
-Serviço REST para gerenciar produtos de um e-commerce fictício, com autenticação JWT, versionamento e testes end-to-end.
+* __API Rest Spring Boot__
+    
+    API REST completa com Spring Boot, incluindo autenticação e documentação.
 
-### Dashboard Financeiro
-Aplicação web para monitorar receitas e despesas com gráficos interativos, alertas e integração com planilhas.
+    [Repositório](https://github.com/mateusaledev/spring-api){ .md-button }
+    [Demo](https://api-demo.mateusaledev.com){ .md-button }
 
-### Pipeline de Deploy
-Esteira CI/CD que automatiza build, testes e deploy contínuo de containers com telemetria e monitoramento.
+* __Portfolio ReactJS__
+    
+    Site pessoal desenvolvido com React e styled-components.
 
-## Mapa de estudos
+    [Repositório](https://github.com/mateusaledev/portfolio){ .md-button }
+    [Demo](https://mateusaledev.com){ .md-button }
 
-1. **Consolidar fundamentos:** reforço constante de arquitetura limpa, testes, padrões de projeto e documentação.
-2. **Explorar novas stacks:** investigações em ferramentas serverless, microsserviços orientados a eventos e visualização de dados.
-3. **Compartilhar conhecimento:** artigos, talks e repositórios open source que registrem cada aprendizado.
+## 💻 Stack Tecnológica
 
-> Use o menu lateral para navegar pelas áreas de Backend, Frontend e DevOps e acompanhar a evolução dos conteúdos.
+* ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+* ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+* ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+* ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+* ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+* ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-Obrigado pela visita e bons estudos!
+## 📚 Áreas de Conhecimento
+
+* __Backend__: APIs REST, Microserviços, Spring Boot, Python
+* __Frontend__: React, JavaScript, HTML/CSS, Styled Components
+* __DevOps__: Docker, CI/CD, AWS Cloud
+* __Dados__: Análise de Dados, Estatística, Pandas
+
+## 🔗 Links
+
+[GitHub](https://github.com/mateusaledev){ .md-button } [LinkedIn](https://linkedin.com/in/mateusaledev){ .md-button }
