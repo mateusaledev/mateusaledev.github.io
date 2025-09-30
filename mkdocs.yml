@@ -18,10 +18,13 @@ markdown_extensions:
 
 nav:
   - Início: index.md
-  - Backend:
-      - Introdução: backend/index.md
-      - APIs: backend/apis.md
-  - Frontend:
-      - Introdução: frontend/index.md
-      - React: frontend/react.md
-  - DevOps: devops/index.md
+  - Documentação:
+      - Visão Geral: acervo.md
+      - Backend:
+          - Introdução: backend/index.md
+          - APIs: backend/apis.md
+      - Frontend:
+          - Introdução: frontend/index.md
+          - React: frontend/react.md
+      - DevOps:
+          - Introdução: devops/index.md
