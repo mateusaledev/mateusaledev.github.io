@@ -1,29 +1,30 @@
-# Bem-vindo ao meu Acervo de Estudos
+# Mateus Alves
 
-Olá! Eu sou Mateus Alves, desenvolvedor apaixonado por construir soluções que resolvem problemas reais e que me desafiem a aprender algo novo todos os dias.
+Bem-vindo ao meu acervo de estudos. Aqui você encontra anotações organizadas por área, referências úteis e projetos que estou desenvolvendo.
 
-## Sobre mim
+## Stack atual
 
-- 💼 Desenvolvedor com foco em criar aplicações web modernas.
-- 📚 Estudante incansável de boas práticas de arquitetura, testes e automação.
-- 🚀 Fascinado por compartilhar conhecimento e acompanhar minha evolução profissional.
-
-Este espaço foi criado para centralizar todo o meu aprendizado. Aqui você encontra anotações, guias e resumos das tecnologias que estudo, além de acompanhar os projetos que estou construindo.
+- **Backend:** Python, FastAPI, SQLAlchemy. Testes automatizados com Pytest e foco em APIs bem documentadas.
+- **Frontend:** React, TypeScript, Tailwind. Interfaces acessíveis, componentização e atualização em tempo real.
+- **DevOps:** Docker, GitHub Actions, AWS. Pipelines contínuos, observabilidade e entregas frequentes.
 
 ## Projetos em destaque
 
-| Projeto | Descrição | Tecnologias |
-|---------|-----------|-------------|
-| **API de Catálogo** | Serviço REST para gerenciar produtos de um e-commerce fictício, com autenticação JWT e testes automatizados. | FastAPI, PostgreSQL, Pytest |
-| **Dashboard Financeiro** | Aplicação web para monitorar receitas e despesas, com gráficos interativos e integração com planilhas. | React, TypeScript, Recharts |
-| **Pipeline de Deploy** | Automação de build e deploy contínuo para containers em produção. | Docker, GitHub Actions, AWS |
+### API de Catálogo
+Serviço REST para gerenciar produtos de um e-commerce fictício, com autenticação JWT, versionamento e testes end-to-end.
 
-> 🧭 Quer ver mais? Acesse as seções do acervo pelo menu lateral para explorar os tópicos que estou estudando em cada área.
+### Dashboard Financeiro
+Aplicação web para monitorar receitas e despesas com gráficos interativos, alertas e integração com planilhas.
 
-## Como usar este acervo
+### Pipeline de Deploy
+Esteira CI/CD que automatiza build, testes e deploy contínuo de containers com telemetria e monitoramento.
 
-1. Navegue pelas categorias (Backend, Frontend, DevOps) para encontrar o conteúdo que mais te interessa.
-2. Leia os resumos, consulte as referências e acompanhe a evolução dos projetos.
-3. Volte sempre: o acervo está em constante atualização à medida que novos estudos e experimentos acontecem.
+## Mapa de estudos
 
-Obrigado por visitar e bons estudos!
+1. **Consolidar fundamentos:** reforço constante de arquitetura limpa, testes, padrões de projeto e documentação.
+2. **Explorar novas stacks:** investigações em ferramentas serverless, microsserviços orientados a eventos e visualização de dados.
+3. **Compartilhar conhecimento:** artigos, talks e repositórios open source que registrem cada aprendizado.
+
+> Use o menu lateral para navegar pelas áreas de Backend, Frontend e DevOps e acompanhar a evolução dos conteúdos.
+
+Obrigado pela visita e bons estudos!
