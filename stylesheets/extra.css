@@ -1,179 +1,103 @@
 ﻿/* Cyberpunk theme customizations */
 
-/* Project Cards */
-.grid.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
-    margin: 1rem 0;
+:root {
+    --neon-blue: #0084ff;
+    --neon-cyan: #00fff9;
+    --neon-azure: #007fff;
+    --dark-bg: #1a1a1a;
 }
 
-.grid.cards > * {
-    border: 1px solid rgba(0, 255, 136, 0.3);
-    border-radius: 8px;
-    padding: 1rem;
-    background: rgba(0, 255, 136, 0.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+/* Neon text effects */
+.md-typeset {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--md-typeset-color);
 }
 
-.grid.cards > *:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 255, 136, 0.2);
+/* Melhor contraste para títulos */
+.md-typeset h1 {
+    color: var(--md-primary-fg-color);
+    font-weight: 700;
+    margin-bottom: 2rem;
 }
 
-.grid.cards .md-button {
-    margin: 0.5rem;
-    padding: 0.3rem 0.8rem;
+.md-typeset h2 {
+    font-weight: 600;
+    margin-top: 2rem;
+    color: var(--md-primary-fg-color--light);
 }
 
-/* Tech Stack */
-.tech-stack {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin: 1rem 0;
+/* Espaçamento otimizado para parágrafos */
+.md-typeset p {
+    margin: 1em 0;
 }
 
-.tech-stack img {
-    height: 28px;
-    transition: transform 0.3s ease;
+/* Melhor legibilidade para blocos de código */
+.md-typeset code {
+    font-size: 0.95em;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    background-color: var(--md-code-bg-color);
 }
 
-.tech-stack img:hover {
-    transform: translateY(-2px);
+.md-typeset pre > code {
+    line-height: 1.6;
+    padding: 1em;
 }
 
-/* Neon glow effect for headers */
-h1, h2, h3 {
-    text-shadow: 0 0 5px rgba(0, 255, 136, 0.5);
-    transition: text-shadow 0.3s ease;
+/* Links mais distintos */
+.md-typeset a {
+    color: var(--md-accent-fg-color);
+    text-decoration: none;
+    transition: color 0.2s;
 }
 
-h1:hover, h2:hover, h3:hover {
-    text-shadow: 0 0 10px rgba(0, 255, 136, 0.8);
+.md-typeset a:hover {
+    text-decoration: underline;
+    color: var(--md-accent-fg-color--light);
 }
 
-/* Code block styling */
-.highlight pre {
-    border-radius: 8px;
-    border: 1px solid rgba(147, 112, 219, 0.3);
-    box-shadow: 0 0 15px rgba(147, 112, 219, 0.1);
+/* Melhor contraste para listas */
+.md-typeset ul {
+    list-style: disc;
 }
 
-/* Navigation styling */
-.md-nav__item .md-nav__link--active {
-    color: #00ff88;
-    font-weight: bold;
+.md-typeset ul li {
+    margin-bottom: 0.5em;
 }
 
-/* Ensure nav section toggle caret is visible */
-.md-nav__container > label.md-nav__link .md-nav__icon::before {
-    content: '>';
-    display: inline-block;
-    transform: rotate(0deg);
-    transition: transform 0.2s ease, color 0.2s ease;
-    color: #00ff88;
-    margin-left: 0.25rem;
-}
-
-/* Rotate caret when the section is expanded */
-nav[aria-expanded="true"] + .md-nav__link .md-nav__icon::before,
-nav[aria-expanded="true"] .md-nav__icon::before {
-    transform: rotate(90deg);
-}
-/* Custom scrollbar */
-::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-}
-
-::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.1);
-}
-
-::-webkit-scrollbar-thumb {
-    background: rgba(0, 255, 136, 0.5);
-    border-radius: 4px;
-}
-
-/* Card-like elements */
-.md-typeset .admonition {
-    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.md-typeset .admonition:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-/* Animated link underline */
-.md-content a:not(.md-button) {
-    background: linear-gradient(0deg, currentColor 0%, currentColor 100%) no-repeat right bottom / 0 2px;
-    transition: background-size 0.3s ease;
-}
-
-.md-content a:not(.md-button):hover {
-    background-position-x: left;
-    background-size: 100% 2px;
-}
-
-/* Button styling */
-.md-button {
-    transition: all 0.3s ease;
-    border: 2px solid rgba(0, 255, 136, 0.5);
-}
-
-.md-button:hover {
-    background-color: rgba(0, 255, 136, 0.1);
-    border-color: #00ff88;
-    transform: translateY(-1px);
-}
-
-/* Table styling */
+/* Ajustes para tabelas */
 .md-typeset table:not([class]) {
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .md-typeset table:not([class]) th {
-    background-color: rgba(0, 255, 136, 0.1);
+    padding: 0.8em;
+    background-color: var(--md-primary-fg-color--light);
+    color: var(--md-primary-bg-color);
 }
 
-/* Search results highlight */
-.md-search-result mark {
-    color: #00ff88;
-    text-shadow: 0 0 3px rgba(0, 255, 136, 0.3);
+/* Melhor visibilidade para blocos de destaque */
+.md-typeset blockquote {
+    padding: 1em;
+    margin: 1em 0;
+    border-left: 4px solid var(--md-accent-fg-color);
+    background-color: var(--md-code-bg-color);
 }
 
-/* Expander button next to nav section titles */
-.md-nav__expander {
-    background: transparent;
-    border: none;
-    color: inherit;
-    cursor: pointer;
-    padding: 0 0.25rem;
-    margin-left: 0.5rem;
-    display: inline-flex;
-    align-items: center;
-    font-size: 0.9em;
-}
-.md-nav__expander:focus {
-    outline: 2px solid rgba(0, 255, 136, 0.4);
-    outline-offset: 2px;
-}
-.md-nav__expander-icon {
-    display: inline-block;
-    transition: transform 0.15s ease;
-}
-.md-nav__expander[aria-expanded="true"] .md-nav__expander-icon {
-    transform: rotate(90deg);
-}
-
-/* Keep the default caret rotation in sync with aria-expanded on the nav element */
-nav[aria-expanded="true"] .md-nav__icon::before,
-nav[aria-expanded="true"] + .md-nav__link .md-nav__icon::before {
-    transform: rotate(90deg);
+/* Ajustes para dispositivos móveis */
+@media screen and (max-width: 76.1875em) {
+    .md-typeset {
+        font-size: 15px;
+    }
+    
+    .md-typeset h1 {
+        font-size: 1.8rem;
+    }
+    
+    .md-typeset h2 {
+        font-size: 1.4rem;
+    }
 }
