@@ -67,48 +67,20 @@ h1:hover, h2:hover, h3:hover {
     font-weight: bold;
 }
 
-.md-nav__item--nested > input.md-nav__toggle ~ nav {
-    display: none;
-}
-
-.md-nav__item--nested > input.md-nav__toggle:checked ~ nav {
-    display: block;
-}
-
-.md-nav__item--active > nav {
-    display: block;
-}
-
-/* Custom expand/collapse control */
-.md-nav__container > label.md-nav__link.md-nav__label--expander .md-nav__icon {
-    display: none;
-}
-
-.md-nav__expander {
-    background: transparent;
-    border: none;
-    color: inherit;
-    cursor: pointer;
-    padding: 0 0.25rem;
-    margin-right: 0.25rem;
-    display: inline-flex;
-    align-items: center;
-    font-size: 0.85em;
-}
-
-.md-nav__expander:focus {
-    outline: 2px solid rgba(0, 255, 136, 0.4);
-    outline-offset: 2px;
-}
-
-.md-nav__expander-icon::before {
-    content: '+';
+/* Ensure nav section toggle caret is visible */
+.md-nav__container > label.md-nav__link .md-nav__icon::before {
+    content: '>';
     display: inline-block;
-    transition: transform 0.15s ease;
+    transform: rotate(0deg);
+    transition: transform 0.2s ease, color 0.2s ease;
+    color: #00ff88;
+    margin-left: 0.25rem;
 }
 
-.md-nav__expander[aria-expanded="true"] .md-nav__expander-icon::before {
-    content: '-';
+/* Rotate caret when the section is expanded */
+nav[aria-expanded="true"] + .md-nav__link .md-nav__icon::before,
+nav[aria-expanded="true"] .md-nav__icon::before {
+    transform: rotate(90deg);
 }
 /* Custom scrollbar */
 ::-webkit-scrollbar {
